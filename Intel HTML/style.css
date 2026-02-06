@@ -1,0 +1,35 @@
+/* Zorg dat de container flex gebruikt */
+.Container {
+    display: flex;       
+    gap: 20px;          
+}
+
+/* Zorg dat de afbeeldingen hun originele grootte behouden */
+.Container img {
+    width: auto;        
+    height: auto;       
+}
+
+/* styling voor de tekst */
+.left, .right {
+    display: flex;
+    flex-direction: column; 
+}
+
+table {
+
+border-collapse: collapse;
+width: 100%;
+}
+
+th, td {
+
+border: 1px solid black;
+padding: 10px;
+text-align: left;
+
+}
+
+th {
+background-color: #f2f2f2;
+}
